@@ -13,7 +13,7 @@ public class UserProfile {
     private String firstName;
     private String lastName;
     private String aboutMe;
-    private Date dob;
+    private Date dob = new Date();
     private String contactNumber;
     private String country;
 
